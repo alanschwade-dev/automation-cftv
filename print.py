@@ -6,10 +6,10 @@ import schedule
 import time
 
 #Configuracoes
-url = "http://10.25.1.6/cgi-bin/snapshot.cgi[?channel=1]"
-url2 = "http://10.25.0.254/cgi-bin/snapshot.cgi?channel=1"
-usuario = "admin"
-senha = "coprel52892"
+url = "http://10.1.1.6/cgi-bin/snapshot.cgi[?channel=1]"
+url2 = "http://10.1.1.254/cgi-bin/snapshot.cgi?channel=1"
+usuario = "xxx"
+senha = "xxxx"
 pasta_destino = os.path.join(os.path.expanduser("~"), "Documents", "Fotos Obras Coprel")
 os.makedirs(pasta_destino, exist_ok=True)
 pasta_destino2 = os.path.join(os.path.expanduser("~"), "Documents", "Fotos Obras Coprel", "Camera Secundaria")
